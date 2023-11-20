@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar de Velocidade</title>
+    <link rel="shortcut icon" href="/radar-de-velocidade.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="iniciar()">
+    <div class="container">
+        <div>
+            <p id="horario">Horario</p>
+        </div>
+
+        <div>
+            <h5>SISTEMA DE CONTROLE DE VELOCIDADE</h5>
+
+        </div>
+
+        <div>
+            🚗 <input id="velocidade" type="number"> 🚗
+        </div>
+        
+        <div>
+            <input 
+            type="button" 
+            value="LIMPAR" 
+            onclick="limpar()">
+
+            <input 
+            type="button" 
+            value="CHECAR" 
+            onclick="checar()">
+
+        </div>
+
+
+
+        <div>
+            <h5 id="velocidade-atual">VELOCIDADE ATUAL: </h5>
+        </div>
+
+        <div>
+            <p id="alerta"></p>
+        </div>
+    </div>
+</body>
+</html>

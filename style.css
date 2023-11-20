@@ -1,0 +1,18 @@
+body {
+    background: rgb(14, 96, 121);
+}
+
+.container{
+    background: rgb(97, 156, 177);
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 2px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+.container div{
+    padding: 2px;
+}
